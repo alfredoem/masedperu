@@ -1,0 +1,40 @@
+body {
+    background: url(../images/home/backgrounds/1.png) repeat center top;
+}
+
+header {
+    background-color: #26A9DB;
+    background-position: center center;
+}
+
+header .container .row {
+    margin-top: 20px;
+    padding: 0;
+    color: #fff;
+    font-size: 12px;
+}
+
+header .container .row div {
+
+}
+
+.main-container {
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: white;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.bg-white {background-color: #fff;}
+.top5 { margin-top:5px; }
+.top7 { margin-top:7px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top17 { margin-top:17px; }
+.top30 { margin-top:30px; }
+
+.bold { font-weight: bold; }
+.fs11 { font-size: 11px; }
