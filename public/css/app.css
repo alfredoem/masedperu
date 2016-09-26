@@ -6,21 +6,47 @@ header {
     background-color: #26A9DB;
     background-position: center center;
 }
+.main-container{
+    padding: 0;
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1230px;
+    }
+}
+/* by CR7 */
+.container-header {
+    width: 1170px;
+    display: table;
+}
+.logo, .menu {
+    display: table-cell;
+    vertical-align: middle;
+}
+.container-menu {
+    width: 100%;
+    display: table;
+}
+.item-menu {
+    display: table-cell;
+    color: #fff;
+}
+/* menu */
+.icon-menu, .text-menu {
+    display: inline-block;
+}
 
 header .container .row {
     margin-top: 20px;
-    padding: 0;
+    /*padding: 0;*/
     color: #fff;
     font-size: 12px;
 }
 
-header .container .row div {
-
-}
 
 .main-container {
     margin: 0 auto;
-    max-width: 100%;
+    /*max-width: 100%;*/
     background-color: white;
 }
 
